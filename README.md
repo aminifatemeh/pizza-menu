@@ -26,17 +26,10 @@ This is a simple **React-based pizza menu** for "Fast React Pizza Co." The app d
 │   │   ├── salamino.jpg
 │   │   ├── prosciutto.jpg
 │   ├── index.html
+│   ├── data.js   # Pizza data (array of objects)
 ├── 📂 src
 │   ├── index.js  # Entry point of the app
 │   ├── index.css # Styling for the app
-│   ├── App.js    # Main component
-│   ├── components
-│   │   ├── Header.js  # Header component
-│   │   ├── Menu.js    # Menu component (maps over pizza data)
-│   │   ├── Pizza.js   # Individual pizza component
-│   │   ├── Footer.js  # Footer component (handles opening hours)
-│   │   ├── Order.js   # Order button and message
-│   ├── data.js   # Pizza data (array of objects)
 ├── package.json  # Project dependencies and scripts
 └── README.md
 ```
